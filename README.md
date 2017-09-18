@@ -16,7 +16,7 @@ while using regexes took 1minute 37s.
 
 | Sentences | Keywords | String.Contains | Regex    | Go-Flash |
 |-----------|----------|-----------------|----------|----------|
-| 1000      | 10K      | 1.0035s         | 2.72ms   | 1min 37s
+| 1000      | 10K      | 1.0035s         | 1min 37s | 2.72ms 
 
 
 ## Warning

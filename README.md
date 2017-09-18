@@ -14,9 +14,9 @@ As a reference using go-flash with 10K keywords in a 1000 sentence text, took 7.
 while using regexes took 1minute 37s.
 
 
-| Sentences | Keywords | Regex    | Go-Flash |
-|-----------|----------|----------|----------|
-| 1000      | 10K      | 1min 37s | 7.3ms    |
+| Sentences | Keywords | String.Contains | Regex    | Go-Flash |
+|-----------|----------|-----------------|----------|----------|
+| 1000      | 10K      | 1.0035s         | 2.72ms   | 1min 37s
 
 
 ## Warning

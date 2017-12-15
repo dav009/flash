@@ -1,4 +1,7 @@
+
 # Flash
+
+![](https://raw.githubusercontent.com/dav009/flash/master/ico.png)
 
 Fast Keyword extraction using [Aho–Corasick algorithm](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)  and Tries.
 

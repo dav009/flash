@@ -13,20 +13,6 @@ This is meant to be used when you have a large number of words that you want to:
 
 Flash is meant as a replacement for Regex, which in such cases can be extremely slow.
 
-As a reference using go-flash with 10K keywords in a 1000 sentence text, took 7.3ms,
-while using regexes took 1minute 37s.
-
-
-| Sentences | Keywords | String.Contains | Regex    | Go-Flash |
-|-----------|----------|-----------------|----------|----------|
-| 1000      | 10K      | 1.0035s         | 1min 37s | 2.72ms 
-
-
-## Warning
-
-This is a toy-project for me to get more familiar with Golang
-Please be-aware of potential issues.
-
 ## Usage
 
 ```go
@@ -41,4 +27,22 @@ foundKeywords := words.Extract("New York and Tokyo are Cities")
 fmt.Println(foundKeywords)
 // [New York, Tokyo]
 ```
+
+
+## Benchmarks
+
+As a reference using go-flash with 10K keywords in a 1000 sentence text, took 7.3ms,
+while using regexes took 1minute 37s.
+
+
+| Sentences | Keywords | String.Contains | Regex    | Go-Flash |
+|-----------|----------|-----------------|----------|----------|
+| 1000      | 10K      | 1.0035s         | 1min 37s | 2.72ms 
+
+
+## Warning
+
+This is a toy-project for me to get more familiar with Golang
+Please be-aware of potential issues.
+
 
